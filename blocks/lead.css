@@ -1,0 +1,36 @@
+.lead {
+  max-width: 983px;
+  max-width: 983px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+}
+
+.lead__title {
+  font-weight: bold;
+  max-width: 720px;
+  max-height: 200px;
+  font-size: 96px;
+  line-height: 100px;
+  font-weight: 900;
+  font-family: "mifuente";
+  margin: auto;
+  text-align: center;
+  margin-top: 91px;
+}
+
+.lead__subtitle {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  font-family: "mifuente";
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+.lead__photo {
+  align-content: center;
+  max-width: 984px;
+  max-height: 615px;
+}

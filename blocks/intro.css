@@ -1,0 +1,38 @@
+.intro {
+  max-width: 830px;
+  max-height: 607px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 200;
+  font-family: "mifuente";
+  margin-left: 148px;
+}
+.intro__photo-title {
+  font-family: "mifuente";
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+  max-width: 830px;
+  max-height: 174px;
+}
+.intro__photo-subtitle {
+  font-family: "mifuente";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.intro__photo-author {
+  font-family: "mifuente";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+}
+.intro__photo-descpition {
+  font-family: "mifuente";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
