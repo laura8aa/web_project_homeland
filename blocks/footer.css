@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-  height: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 .footer__copyright {
   margin-top: 180px;
