@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  background-color: inherit;
 }
 .footer__copyright {
   margin-top: 180px;
