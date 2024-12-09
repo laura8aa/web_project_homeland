@@ -16,14 +16,14 @@
   background-color: #2a2c2f;
 }
 @media screen and (max-width: 768px) {
-  .grid {
+  .photo__grid {
     max-width: 720px;
     max-height: 1140px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 320px) {
-  .grid {
+  .photo__grid {
     max-width: 288px;
     max-height: 1812px;
     grid-template-columns: repeat(1, 1fr);
