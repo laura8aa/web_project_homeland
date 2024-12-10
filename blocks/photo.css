@@ -1,4 +1,4 @@
-.photo__grid {
+.photo-grid {
   background-color: #2a2c2f;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -7,7 +7,7 @@
   grid-gap: 16px;
   max-width: 1184px;
 }
-.photo__grid-gallery {
+.photo-grid__gallery {
   max-width: 100%;
   width: 100%;
   height: 100%;
