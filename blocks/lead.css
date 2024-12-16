@@ -67,7 +67,6 @@
   .lead__title {
     font-weight: bold;
     max-width: 228px;
-    max-height: 88px;
     font-size: 40px;
     line-height: 44px;
     font-weight: 900;
@@ -88,6 +87,6 @@
   .lead__photo {
     align-content: center;
     max-width: 320px;
-    max-height: 200px;
+    margin-bottom: auto;
   }
 }

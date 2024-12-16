@@ -1,6 +1,5 @@
 .intro {
   max-width: 830px;
-  max-height: 607px;
   display: flex;
   flex-direction: column;
   font-weight: 200;
@@ -40,12 +39,13 @@
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 720px;
-    max-height: 573px;
     display: flex;
     flex-direction: column;
     font-weight: 200;
     font-family: "mifuente";
-    margin-left: 148px;
+    justify-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
   }
   .intro__photo-title {
     font-family: "mifuente";
@@ -69,6 +69,7 @@
     font-weight: 400;
     line-height: 34px;
     text-align: right;
+    margin-right: 24px;
   }
   .intro__photo-descpition {
     font-family: "mifuente";
@@ -76,16 +77,22 @@
     font-weight: 400;
     line-height: 26px;
   }
-}
-@media screen and (max-width: 320px) {
   .intro {
-    max-width: 288px;
-    max-height: 1033px;
+    max-width: 830px;
     display: flex;
     flex-direction: column;
     font-weight: 200;
     font-family: "mifuente";
-    margin-left: 148px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    font-family: "mifuente";
+    margin-left: 16px;
   }
 
   .intro__photo-title {
@@ -95,7 +102,6 @@
     line-height: 35px;
     text-align: left;
     max-width: 830px;
-    max-height: 174px;
   }
   .intro__photo-subtitle {
     font-family: "mifuente";
